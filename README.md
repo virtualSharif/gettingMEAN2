@@ -1,4 +1,5 @@
-# GettingMEAN 2 | A practical workshop  (INPROGRESS)
+# GettingMEAN 2 | A practical workshop 
+[In progress]
 -------------------------------------------------------------
 MEAN - MongoDB, Express, Angular4, Node
 
