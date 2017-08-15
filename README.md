@@ -7,7 +7,7 @@ MEAN - MongoDB, Express, Angular4, Node
     Read the documentation: javascript/JavaScript.pdf
     
 ## Step 2: Node.js
-    Read the documentation: nodejs/docs/nodejs.pdf
+    Read the documentation: node/docs/nodejs.pdf
     Try and execute all the examples from nodejs/examples/*.js
     
     
