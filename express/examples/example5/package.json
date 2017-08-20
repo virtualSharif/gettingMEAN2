@@ -1,0 +1,15 @@
+{
+  "name": "example5",
+  "version": "1.0.0",
+  "description": "User findall and findone functionality",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "malik_sharif@ymail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
