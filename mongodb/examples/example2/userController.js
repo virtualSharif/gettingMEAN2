@@ -51,7 +51,7 @@ app.put('/users/:userId',function (req, res) {
 });
 
 app.delete('/users/:userId', function (req, res) {
-	user.remove({ _id : req.params.userId}, function (err, data) {
+	userModel.remove({ _id : req.params.userId}, function (err, data) {
 		res.send(data);
 	});
 });
