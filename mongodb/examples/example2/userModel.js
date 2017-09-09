@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var config = require('./config.js');
 
 // Mongoose connection to MongoDB
-mongoose.connect(config.mongo.url,{useMongoClient: true},  function (error) {
+mongoose.connect(config.url,{useMongoClient: true},  function (error) {
     if (error) {
         console.log(error);
     }
@@ -19,4 +19,4 @@ var UserSchema = new mongoose.Schema({
 // Mongoose Model definition
 var userModel = mongoose.model('user', UserSchema);
 
-module.exports.userModel = userModel;
+module.exports = userModel;

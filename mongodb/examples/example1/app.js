@@ -24,18 +24,31 @@ var user = mongoose.model('user', userSchema);
 var app = express();
 
 // routes management
-app.get('/users', function (req, res) {
+app.get('/api/users', function (req, res) {
     user.find({}, function (err, data) {
         res.send(data);
     });
 });
 
-app.get('/users/:userId', function (req, res) {
+app.get('/api/users/:userId', function (req, res) {
     if (req.params.userId) {
-        user.find({ _id: req.params.userId }, function (err, data) {
+        user.findById(req.params.userId, function (err, data) {
+            if(err){
+              res.send('No record found');
+            }
             res.send(data);
         });
     }
+});
+
+//default endpoint mapping
+app.get('*', function(req, res) {
+  var data ={
+    'status': '404',
+    'message': 'Oops! No endpoints exists',
+    'request-url': req.url
+  }
+  res.send(data);
 });
 
 // Start the server

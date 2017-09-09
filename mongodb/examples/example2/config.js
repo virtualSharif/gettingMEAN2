@@ -4,4 +4,4 @@ var mongo = {
 	'database' : 'mongoose-test'
 };
 
-module.exports.mongo = mongo;
+module.exports = mongo;
