@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Angular Forms!
+  </h1>
+</div>
+<h2>Here is the form</h2>
+<input type="text" placeholder="First Name" [(ngModel)]="firstname" />
+<input type="text" placeholder="Last Name" [(ngModel)]="lastname" />
+<br/>
+
+<button (click)="save()">Save</button>
+<button (click)="clear()">Clear</button>
+<br/>
+<br/>
+{{jsonData | json}}
