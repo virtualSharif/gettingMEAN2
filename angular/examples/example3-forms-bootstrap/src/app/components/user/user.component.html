@@ -1,0 +1,26 @@
+<div class="card text-center">
+  <h4 class="card-header">Users</h4>
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2">Please fill the form to add new user</h6>
+    <hr/>
+    <div class="row">
+      <div class="col-md-12">
+        <label>First Name: </label>
+        <input type="text" [(ngModel)]="firstName" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <label>Last Name: </label>
+        <input type="text" [(ngModel)]="lastName" />
+      </div>
+    </div>
+    <hr/>
+    <div class="row">
+      <div class="col-md-12 pull-right">
+        <button type="button" class="btn btn-outline-primary" (click)="add()">Add</button>
+        <button type="button" class="btn btn-outline-dark" (click)="clear()">Clear</button>
+      </div>
+    </div>
+  </div>
+</div>
