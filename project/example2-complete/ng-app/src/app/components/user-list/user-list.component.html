@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h4>Users
+        <button class="btn btn-primary btn-sm float-right" (click)="addUser()">Add User</button>
+        </h4>
+      </div>
+      <div class="card-body">
+        <table class="table table-hover">
+          <thead class="thead-default ">
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th class="text-center">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of users;let i = index" (dblclick)="detailUser(user)">
+              <td>{{i+1}}</td>
+              <td>{{user.firstName}}</td>
+              <td>{{user.lastName}}</td>
+              <td class="text-center">
+                <button class="btn btn-outline-primary btn-sm" (click)="detailUser(user)">Details</button>
+                <button class="btn btn-primary btn-sm" (click)="editUser(user)">Edit</button>
+                <button class="btn btn-danger btn-sm" (click)="deleteUser(user)">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

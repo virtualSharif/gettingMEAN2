@@ -1,0 +1,19 @@
+{
+  "name": "mongo-modalarized",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ng-app && ng build && node ../app.js",
+    "install": "npm install && cd ng-app && npm install"
+  },
+  "author": "virtualsharif",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9",
+    "path": "^0.12.7"
+  }
+}
