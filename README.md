@@ -1,6 +1,5 @@
 # GettingMEAN 2 | A practical workshop 
--------------------------------------------------------------
-## Technology STACK:
+## Technology Stack:
     MEAN - MongoDB, Express, Angular, Node
 
 #### Step 1: JavaScript
@@ -49,7 +48,7 @@
 ![Alt text](./project/example2-complete/screenshots/screenshot1.png?raw=true "Optional Title")    
 
 #### Hurray!! 
-    You're are path on to be a "FULL STACK DEVELOPER"
+    You're are right path to become a "FULL STACK DEVELOPER"
     
 #### Details of Author
     Name: Sharif Malik
