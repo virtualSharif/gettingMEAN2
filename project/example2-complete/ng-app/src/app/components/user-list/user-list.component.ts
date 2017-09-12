@@ -8,21 +8,7 @@ import { Router } from '@angular/router';
 })
 export class UserListComponent implements OnInit {
 
-  public users = [{
-    _id: '1',
-    firstName: 'sharif',
-    lastName: 'malik'
-  },
-  {
-    _id: '2',
-    firstName: 'atul',
-    lastName: 'ranjan'
-  },
-  {
-    _id: '3',
-    firstName: 'nikhil',
-    lastName: 'jaunjal'
-  }];
+  public users = [];
 
   constructor(
     private userService: UserService,

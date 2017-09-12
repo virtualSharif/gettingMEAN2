@@ -3,10 +3,6 @@ var express = require('express');
 var app = express();
 //userModel
 var userModel = require('../models/userModel.js');
-//body-parser
-var bodyParser = require('body-parser');
-app.use(bodyParser.json());
-
 // routes management
 app.get('/users', function (req, res) {
     userModel.find({}, function (err, data) {

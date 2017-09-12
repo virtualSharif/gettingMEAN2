@@ -37,7 +37,6 @@ export class UserEditComponent implements OnInit {
       firstName: this.firstName,
       lastName: this.lastName
     };
-    console.log(data);
     this.userService.update(this._id, data).subscribe(data => {
       //navigate to detail view
       this.router.navigate(['/users/' + this._id]);

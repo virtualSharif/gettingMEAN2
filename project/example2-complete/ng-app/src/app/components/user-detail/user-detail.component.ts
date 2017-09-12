@@ -24,7 +24,6 @@ export class UserDetailComponent implements OnInit {
 
       //fetch user detail from rest api
       this.userService.findOne(this._id).subscribe(data => {
-        console.log(data);
         this.firstName = data[0].firstName;
         this.lastName = data[0].lastName;
       });
@@ -44,6 +43,4 @@ export class UserDetailComponent implements OnInit {
   back() {
     this.router.navigate(['/users']);
   }
-
-
 }

@@ -1,6 +1,10 @@
 var express = require('express');
 var app = express();
 
+//body-parser
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+
 //routes management
 var userController = require('./controllers/userController.js');
 
