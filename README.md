@@ -1,6 +1,7 @@
 # GettingMEAN 2 | A practical workshop 
 -------------------------------------------------------------
-MEAN - MongoDB, Express, Angular, Node
+## Technology STACK:
+    MEAN - MongoDB, Express, Angular, Node
 
 #### Step 1: JavaScript
     Read the documentation: javascript/JavaScript.pdf
@@ -26,7 +27,7 @@ MEAN - MongoDB, Express, Angular, Node
     1. example1-beginner : Here you can find how frontend and backend club together
     2. example2-complete : Complete prject with CRUD operation 
 
-##Demo:
+## Demo
     To directly see the output of this workshop, please follow the below steps
 
 #### Step 1: Download or clone the project 
@@ -47,7 +48,9 @@ MEAN - MongoDB, Express, Angular, Node
 
 ![Alt text](./project/example2-complete/screenshots/screenshot1.png?raw=true "Optional Title")    
 
-
-####Hurray!! You're are path on to be a "FULL STACK DEVELOPER"
-    Author: Sharif Malik
+#### Hurray!! 
+    You're are path on to be a "FULL STACK DEVELOPER"
+    
+#### Details of Author
+    Name: Sharif Malik
     Email: malik_sharif@ymail.com
