@@ -44,8 +44,8 @@ npm start
 goto browser: http://localhost:19991  for required
 goto http://localhost:19991/api/users for RESTful webservices responses    
 
-![Alt text](.project/example2-complete/screenshots/screenshot1.png?raw=true "Optional Title")    
--------------------------------------------------------------
+![Alt text](./project/example2-complete/screenshots/screenshot1.png?raw=true "Optional Title")    
+
 
 ##Hurray!! You're are path on to be a "Full Stack Developer"
 
