@@ -1,13 +1,14 @@
-# Mini Project 
+# Final Project 
 
 -------------------------------------------------------------
-MEAN - MongoDB, Express, Angular4, Node
+MEAN - MongoDB, Express, Angular, Node
 
 Added ng-app(HelloWorld app) with backend express app
 
-## Step1 : Install the packages which are required by backend app
-    npm intall
-## Step 2: Start the server
+## Step 1: Install the packages which are required by backend app and frontend app
+    npm install && npm --prefix ./ng-app install ./ng-app
+
+## Step 2: Start the server (starts the server with the frontend and backend)
     npm start
 
 ## Step 3: Output

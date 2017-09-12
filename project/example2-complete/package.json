@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd ng-app && ng build && node ../app.js",
-    "install": "npm install && cd ng-app && npm install"
+    "start": "cd ng-app && ng build && node ../app.js"
   },
   "author": "virtualsharif",
   "license": "ISC",
