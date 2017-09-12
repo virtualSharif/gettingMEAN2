@@ -15,6 +15,7 @@ Added ng-app(HelloWorld app) with backend express app
     goto browser: http://localhost:19991  for required
     goto http://localhost:19991/api/users for RESTful webservices responses    
 
+![Alt text](./screenshots/screenshot1.png?raw=true "Optional Title")
 
 Hurray!
 
